@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 const corsOptions = {
-  origin: "https://547c-213-230-78-221.ngrok-free.app", // frontend'ning URL manzili
+  origin: "https://ko-coin-bot.netlify.app", // frontend'ning URL manzili
   methods: "GET,POST",
   allowedHeaders: "Content-Type",
 };
@@ -31,7 +31,7 @@ bot.start((ctx) => {
           [
             {
               text: "Играть",
-              web_app: { url: "https://547c-213-230-78-221.ngrok-free.app/" },
+              web_app: { url: "https://ko-coin-bot.netlify.app/" },
             },
           ],
         ],
